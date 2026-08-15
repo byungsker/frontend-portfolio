@@ -15,6 +15,8 @@ export type PortfolioProject = {
   role: string;
   stack: string[];
   accent: "mint" | "coral" | "blue";
+  image: string;
+  imageAlt: string;
   challenge: string;
   build: string[];
   outcome: string;
@@ -36,6 +38,8 @@ export const projects: PortfolioProject[] = [
     role: "제품 설계 · 앱 개발 · 출시",
     stack: ["Flutter", "Supabase", "Aladin API"],
     accent: "mint",
+    image: "https://book-golas.vercel.app/icon.png?icon.3nppdb3iwl20x.png",
+    imageAlt: "Bookgolas 앱 아이콘",
     challenge:
       "독서 기록 앱은 입력은 쉽게 시작하지만, 시간이 지나면 기록과 행동의 연결이 끊기기 쉽습니다.",
     build: [
@@ -68,6 +72,8 @@ export const projects: PortfolioProject[] = [
     role: "제품 설계 · 앱 개발 · 출시",
     stack: ["Flutter", "Realtime", "OCR"],
     accent: "coral",
+    image: "https://baroguni.vercel.app/opengraph-image?e601589b54b791c6",
+    imageAlt: "바로구니 서비스 소개 이미지",
     challenge:
       "공유 장보기는 상품을 담는 순간보다, 서로의 상태와 가격 정보를 맞추는 순간에 더 많은 마찰이 생깁니다.",
     build: [
@@ -100,6 +106,8 @@ export const projects: PortfolioProject[] = [
     role: "제품 방향 · 프론트엔드 · 데이터 흐름",
     stack: ["Next.js", "TypeScript", "Prisma", "Vercel AI SDK"],
     accent: "blue",
+    image: "https://byungskerlog.com/opengraph-image?cf8b500896998147",
+    imageAlt: "byungskerlog 서비스 소개 이미지",
     challenge:
       "기록 도구는 쌓이는 속도보다 다시 꺼내 쓰는 흐름이 중요합니다. 입력·검색·편집·발행이 끊기면 지식은 다시 고립됩니다.",
     build: [

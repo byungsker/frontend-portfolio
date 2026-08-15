@@ -27,7 +27,7 @@ npm ci
 npm run dev
 ```
 
-The local site is available at `http://localhost:3000`. Before opening a pull
+The local site is available at `http://localhost:5173`. Before opening a pull
 request, run the complete quality gate:
 
 ```bash
@@ -51,7 +51,8 @@ screenshots, customer details, or internal metrics.
 
 Target release: `0.1.0` · Delivery unit: `web` · Profile: `web-continuous`
 
-The first portfolio surface is implemented on the tracked `0.1.0` feature
-branch. The canonical issue source remains the Obsidian project record.
+The portfolio is a standard React + Vite application. It does not depend on
+ChatGPT Sites or a provider-specific runtime. The canonical issue source
+remains the Obsidian project record.
 
 Evidence-led frontend portfolio: personal products, product UX, and selected experience.

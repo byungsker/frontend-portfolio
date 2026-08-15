@@ -5,6 +5,9 @@
 This repository is a public career artifact. Treat every content change as a
 potential public disclosure.
 
+The application surface is standard React + Vite. Keep provider-specific
+hosting adapters and generated platform scaffolding out of the repository.
+
 ## Required checks
 
 Once the application scaffold exists, every change must run the repository's

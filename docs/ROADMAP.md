@@ -19,3 +19,9 @@ Obsidian archive.
 
 The canonical issue source is the Obsidian project directory. GitHub issues and
 pull requests should link back to the matching `FEP-*` record.
+
+## Implementation status
+
+The application is implemented as a standard React + Vite project. Provider-
+specific Sites scaffolding was removed; deployment remains an explicit
+follow-up after review of the real local build.

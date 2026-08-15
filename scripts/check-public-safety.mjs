@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { readdir } from "node:fs/promises";
 import { join } from "node:path";
 
-const roots = [new URL("../app/", import.meta.url), new URL("../public/", import.meta.url)];
+const roots = [new URL("../src/", import.meta.url), new URL("../public/", import.meta.url)];
 const forbidden = [
   /HStudio/i,
   /-----BEGIN (?:RSA|OPENSSH|EC|PGP) PRIVATE KEY-----/,

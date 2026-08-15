@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 
-const content = await readFile(new URL("../app/content.ts", import.meta.url), "utf8");
+const content = await readFile(new URL("../src/content.ts", import.meta.url), "utf8");
 const required = ["bookgolas", "baroguni", "byungskerlog", "json-animation-viewer.vercel.app", "figmable", "bridge-zip", "markyfy"];
 const forbidden = ["HStudio", "customer", "facility", "internal metric", "private screenshot"];
 
