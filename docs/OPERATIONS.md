@@ -12,7 +12,8 @@ The app is a standard React + Vite build and is intentionally hosting-provider
 agnostic. Deploy the generated `dist/` directory to the approved provider with
 SPA fallback enabled for `/projects/:slug` and `/resume`. There is no admin
 route, authentication, analytics dashboard, or private content route in the
-0.1.0 surface.
+0.1.0 surface. Set `SITE_URL` at build time; the build emits provider-neutral
+`robots.txt` and `sitemap.xml` for the approved public origin.
 
 ## Content refresh
 

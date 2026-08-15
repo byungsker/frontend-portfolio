@@ -39,9 +39,16 @@ npm run build
 npm run test:rendered
 ```
 
+For a real deployment, set the public origin before building so the generated
+`dist/robots.txt` and `dist/sitemap.xml` use the approved domain:
+
+```bash
+SITE_URL=https://portfolio.example.com npm run build
+```
+
 ## Content updates
 
-Public project content lives in `app/content.ts`. Every project keeps the same
+Public project content lives in `src/content.ts`. Every project keeps the same
 Context / Problem / Role / Build / Outcome / Limits / Links contract. Add a
 public URL and a directly verifiable fact before adding a stronger claim. Keep
 company experience at the approved public label and never add private code,

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">byungsker — Frontend Engineer</title>
+  <desc id="desc">제품을 실제로 출시하고 운영하는 프론트엔드 개발자 이병우의 포트폴리오.</desc>
+  <rect width="1200" height="630" fill="#f4f1ea" />
+  <circle cx="1030" cy="120" r="180" fill="#b9e8c6" />
+  <circle cx="1030" cy="120" r="180" fill="none" stroke="#121b1b" stroke-width="2" />
+  <path d="M730 35c180 40 310 180 400 420" fill="none" stroke="#f1836d" stroke-width="3" />
+  <text x="72" y="110" fill="#121b1b" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">FRONTEND ENGINEER · SEOUL, KR</text>
+  <text x="72" y="300" fill="#121b1b" font-family="Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="-5">인터페이스를</text>
+  <text x="72" y="420" fill="#121b1b" font-family="Georgia, serif" font-size="116" font-style="italic" font-weight="700" letter-spacing="-5">실제 제품으로.</text>
+  <text x="76" y="535" fill="#121b1b" font-family="Arial, sans-serif" font-size="24" letter-spacing="5">MAKE · SHIP · LEARN</text>
+</svg>
