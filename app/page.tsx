@@ -19,7 +19,8 @@ function Arrow() {
 
 export default function Home() {
   return (
-    <main>
+    <main id="main-content">
+      <a className="skip-link" href="#work">본문으로 이동</a>
       <nav className="site-nav shell" aria-label="주요 탐색">
         <Link className="wordmark" href="/" aria-label="홈으로 이동">
           byungsker<span>.</span>
@@ -32,6 +33,15 @@ export default function Home() {
             Contact <Arrow />
           </a>
         </div>
+        <details className="mobile-menu">
+          <summary>Menu</summary>
+          <div className="mobile-menu-panel">
+            <a href="#work">Work</a>
+            <a href="#experience">Experience</a>
+            <a href="#labs">Labs</a>
+            <a href="/resume">Résumé <Arrow /></a>
+          </div>
+        </details>
       </nav>
 
       <section className="hero shell" aria-labelledby="hero-title">
@@ -168,7 +178,12 @@ export default function Home() {
       <footer className="site-footer shell">
         <span>© 2026 BYUNGSKER</span>
         <span>BUILT WITH CURIOSITY & CODE</span>
-        <a href="mailto:byungsker@gmail.com">EMAIL <Arrow /></a>
+        <span className="footer-links">
+          <a href="/resume">RÉSUMÉ <Arrow /></a>
+          <a href="https://github.com/byungsker" target="_blank" rel="noreferrer">GITHUB <Arrow /></a>
+          <a href="https://www.linkedin.com/in/byungsker" target="_blank" rel="noreferrer">LINKEDIN <Arrow /></a>
+          <a href="mailto:byungsker@gmail.com">EMAIL <Arrow /></a>
+        </span>
       </footer>
     </main>
   );

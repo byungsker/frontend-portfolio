@@ -36,3 +36,13 @@ test("server-renders a project detail route", async () => {
   assert.match(html, /App Store/);
   assert.doesNotMatch(html, /HStudio/);
 });
+
+test("server-renders the resume route", async () => {
+  const response = await render("/resume");
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /<title>Résumé — byungsker<\/title>/i);
+  assert.match(html, /LinkedIn|LINKEDIN/);
+  assert.match(html, /모빌리티 UX 웹앱 기반 키오스크/);
+  assert.doesNotMatch(html, /HStudio/);
+});

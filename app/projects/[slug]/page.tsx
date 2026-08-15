@@ -33,7 +33,8 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   if (!project) notFound();
 
   return (
-    <main className="project-detail-page">
+    <main className="project-detail-page" id="main-content">
+      <a className="skip-link" href="#project-content">본문으로 이동</a>
       <nav className="site-nav shell" aria-label="주요 탐색">
         <Link className="wordmark" href="/">byungsker<span>.</span></Link>
         <Link className="back-link" href="/#work">← All work</Link>
@@ -51,7 +52,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </div>
       </header>
 
-      <div className="shell detail-body">
+      <div className="shell detail-body" id="project-content">
         <aside className="detail-aside">
           <span className="eyebrow">ROLE</span>
           <strong>{project.role}</strong>
